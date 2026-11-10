@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def startmenue():
-    return {"nachricht": "Startseite"}
+    return {"nachricht": "Startseite LOLOLOL"}
 
 class ToDo(BaseModel):
     title: str
